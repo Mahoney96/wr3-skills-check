@@ -7,10 +7,10 @@ import Header from './Components/Header/Header';
 
 export default (
     <Switch>
-        <Route  path ='/' component={Dashboard} />
-        <Route Path= '/' component= />
-        <Route />
-        <Route />
+        <Route path ='/' component={Dashboard} />
+        <Route path='/' component={Header} />
+        <Route path= '/' component={Form} />
+        <Route path='/' component={Product} />
     </Switch>
 );
 
